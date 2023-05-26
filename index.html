@@ -1,144 +1,183 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/css/barra.css" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-----css----->
+    <link rel="stylesheet" href="/css/bootstrap.min.css" />
     <link rel="stylesheet" href="/css/colors of page.css" />
     <link rel="stylesheet" href="/css/card.css" />
-    <link rel="stylesheet" href="/css/concta.css" />
-    <script src="/js/barra.js"></script>
-    <script src="/js/sololetras.js"></script>
-    <script src="/js/solonumero.js"></script>
-    <title>proyect sakura 5</title>
-  </head>
-  <body>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-  </body>
-  <div class="topnav" id="myTopnav">
-    <a href="index.html" class="active">Home</a>
-    <a href="#inicio">hola</a>
-    <a href="#proyect">proyecto</a>
-    <a href="#herramienta">herramienta</a>
-    <a href="#conctacto">conctacto</a>
-    <a class="social" href="#"
-      ><img
-        src="/img/socialimg/317752_facebook_social media_social_icon.ico"
-        alt=""
-    />facebook</a>
-    <a class="social" href="#"
-      ><img
-        src="/img/socialimg/291710_twitter_social media_tweet_bird_social_icon.ico"
-        alt=""
-    />twitter</a>
-    <a class="social" href="#"
-      ><img
-        src="/img/socialimg/1856391_circled_linked in_linkedin_media_network_icon.ico"
-        alt=""
-    />linkedin</a>
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-      <i class="fa fa-bars"></i>
-    </a>
-  </div>
-
-  <div id="hola" class="hola">
-    <h1>hola ,<span>Soy Felipesonic</span></h1>
-    <img
-      src="/img/img/photo_2022-11-29_17-55-51.jpg
-  "
-    />
-    <p>
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi
-      <span>dolorum</span> cum aliquid magni consequatur possimus aliquam minus
-      ad fugit recusandae. Earum qui asperiores, quae reprehenderit aliquam
-      reiciendis animi? Ipsum, dolorem!
-      <button>
-        <a href="/recurso/curriculum de felipe andrés torres vazque .pdf"
-          >descarga</a
+    <!--------js--------->
+    <script src="/js/jquery-3.5.1.slim.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/sololetras.js"></script>
+    <script src="/js/solonumero.js"></script>
+    <title>ftv.dev</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img
+            src="/img/img/estrella (5).png"
+            alt="Avatar Logo"
+            style="width: 40px"
+            class="rounded-pill"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mynavbar"
         >
-      </button>
-    </p>
-  </div>
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mynavbar">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link"  href="#proyect">proyecto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"  href="#herramienta">herramienta</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#conctacto">conctacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="hola" style="width: 300px">
+      <img
+        class="card-img-top"
+        src="/img/img/photo_2022-11-29_17-55-51.jpg"
+        alt="Card image"
+      />
+      <div class="card-header">
+        <h1 class="title text-white"><span>felipe tor</span>res vazque</h1>
+        <h5 class="subtitle">developer web .net</h5>
+        <p class="text">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis
+          itaque, vitae asperiores, quae facilis architecto saepe aperiam
+          dolorum qui repellat assumenda. Aut soluta omnis ullam deserunt est
+          optio assumenda dolores.
+        </p>
+        <a
+          href="/recurso/curriculum de felipe andrés torres vazque .pdf"
+          class="btn btn-primary"
+          >download Vc</a
+        >
+      </div>
+    </div>
 
-  <div id="proyect" class="practica">
-    <h2>proyecto de practica</h2>
-  </div>
-  <div id="herramienta" class="herramienta">
-    <h2>herramienta</h2>
-    <div class="card">
-      <img src="/img/imagen para card/html5.jpg" />
-      <h3>Html5</h3>
-      <div class="focus-content">
-        <p>
-          Lenguaje básico de la World Wide Web.<br />
-          <a href="https://es.wikipedia.org/wiki/HTML5"
-            >Información en wikipedia</a
-          >
-        </p>
+    <div id="proyect" class="practica">
+      <h2>proyecto de practica</h2>
+    </div>
+    <div id="herramienta" class="herramienta">
+      <h2>herramienta</h2>
+      <div class="card card bg-black text-white">
+        <img src="/img/imagen para card/html5.jpg" />
+        <h3>Html5</h3>
+        <div class="focus-content">
+          <p>
+            Lenguaje básico de la World Wide Web.<br />
+            <a href="https://es.wikipedia.org/wiki/HTML5"
+              >Información en wikipedia</a
+            >
+          </p>
+        </div>
+      </div>
+      <div class="card card bg-black text-white">
+        <img src="/img/imagen para card/creative-css3-tutorials.webp" />
+        <h3>Css3</h3>
+        <div class="focus-content">
+          <p>
+            El lenguaje de hojas de estilos creado para controlar el aspecto
+            .<br />
+            <a href="https://es.wikipedia.org/wiki/CSS#CSS3"
+              >Información en wikipedia</a
+            >
+          </p>
+        </div>
+      </div>
+      <div class="card card bg-black text-white">
+        <img src="/img/imagen para card/javascript-736401_960_720.png" />
+        <h3>Java Script</h3>
+        <div class="focus-content">
+          <p>
+            Lenguaje de programación orientado a objetos.<br />
+            <a href="https://es.wikipedia.org/wiki/JavaScript"
+              >Información en wikipedia</a
+            >
+          </p>
+        </div>
+      </div>
+      <div class="card card bg-black text-white">
+        <img src="/img/imagen para card/git.jpg" />
+        <h3>Git</h3>
+        <div class="focus-content">
+          <p>
+            Software de control de versiones diseñado por Linus Torvalds.<br />
+            <a href="https://es.wikipedia.org/wiki/Git"
+              >Información en wikipedia</a
+            >
+          </p>
+        </div>
       </div>
     </div>
-    <div class="card">
-      <img src="/img/imagen para card/creative-css3-tutorials.webp" />
-      <h3>Css3</h3>
-      <div class="focus-content">
-        <p>
-          El lenguaje de hojas de estilos creado para controlar el aspecto .<br />
-          <a href="https://es.wikipedia.org/wiki/CSS#CSS3"
-            >Información en wikipedia</a
-          >
-        </p>
-      </div>
-    </div>
-    <div class="card">
-      <img src="/img/imagen para card/javascript-736401_960_720.png" />
-      <h3>Java Script</h3>
-      <div class="focus-content">
-        <p>
-          Lenguaje de programación orientado a objetos.<br />
-          <a href="https://es.wikipedia.org/wiki/JavaScript"
-            >Información en wikipedia</a
-          >
-        </p>
-      </div>
-    </div>
-    <div class="card">
-      <img src="/img/imagen para card/git.jpg" />
-      <h3>Git</h3>
-      <div class="focus-content">
-        <p>
-          Software de control de versiones diseñado por Linus Torvalds.<br />
-          <a href="https://es.wikipedia.org/wiki/Git"
-            >Información en wikipedia</a
-          >
-        </p>
-      </div>
-    </div>
-  </div>
-  <div id="conctacto" class="conctacto">
-    <form action="">
-      <h2>Datos de Contacto</h2>
-      <label for="">Nombre:</label>
-      <input type="text" onkeypress="return lettersOnly(event)" />
-      <br />
-      <label for="">Telefono:</label>
-      <input type="text" onkeypress="return numbersonly(event)" />
-      <br />
-      <label for="">Correo:</label>
-      <input type="email" name="" id="" />
-      <br />
-      <label for="">comentarios:</label>
-      <br />
-      <textarea name="" id="" cols="20" rows="10"></textarea>
-      <br />
-      <button><a href="#">enviar</a></button>
-    </form>
-  </div>
+    <div id="conctacto" class="conctacto">
+      <form>
+        <h2>Datos de Contacto</h2>
+        <br />
+        <div class="form-group">
+          <label for="exampleInputName2">Nombre:</label>
+          <input
+            type="text"
+            class="form-control"
+            id="exampleInputName2"
+            placeholder="Jane Doe"
+            onkeypress="return lettersOnly(event)"
+          />
+        </div>
+        <br />
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            class="form-control"
+            id="email"
+            placeholder="jane.doe@example.com"
+          />
+        </div>
 
-  <div>
-    <footer>felipesonic 2015 - 2025</footer>
-  </div>
+        <br />
+        <div class="form-group">
+          <label for="coment">comentarios</label>
+          <textarea
+            class="form-control"
+            rows="3"
+            placeholder="deje su comentarios."
+          ></textarea>
+        </div>
+
+        <br />
+        <div class="form-group">
+          <button type="submit" class="btn btn-outline-success">Sign in</button>
+        </div>
+      </form>
+    </div>
+
+    <div>
+      <footer>@Felipesonic-proyect sakura 5 2021-2023</footer>
+    </div>
+  </body>
 </html>
