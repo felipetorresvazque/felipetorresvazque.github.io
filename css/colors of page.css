@@ -36,7 +36,7 @@ footer {
 .conctacto {
   flex-basis: 0;
   flex-grow: 999;
-  min-width: 60%;
+  min-width: 70%;
   padding: 40px;
 }
 .hola span {
