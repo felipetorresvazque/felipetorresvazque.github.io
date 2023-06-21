@@ -71,3 +71,32 @@ footer {
   background-color: #fffffe;
   color: black;
 }
+.imag{
+  background-image: url(/img/img/josefina-di-battista-UwoPc2op3UQ-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+}
+
+.tras{
+  border: 1px rgb(36, 35, 35);
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+}
+.cen{
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:#fffffe;
+
+}
