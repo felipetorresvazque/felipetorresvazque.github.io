@@ -12,7 +12,7 @@ body {
 h2 {
   color: #fdfd96;
 }
-.hola h5{
+.hola h5 {
   color: #fffffe;
 }
 .conctacto label,
@@ -43,7 +43,7 @@ footer {
   color: #fdfd96;
 }
 .hola button {
-  background-color:#ff8906;
+  background-color: #ff8906;
   border-radius: 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -71,7 +71,7 @@ footer {
   background-color: #fffffe;
   color: black;
 }
-.imag{
+.imag {
   background-image: url(/img/img/josefina-di-battista-UwoPc2op3UQ-unsplash.webp);
   background-size: cover;
   background-position: center;
@@ -83,7 +83,7 @@ footer {
   -o-border-radius: 7px;
 }
 
-.tras{
+.tras {
   border: 1px rgb(36, 35, 35);
   background-color: rgba(0, 0, 0, 0.4);
   border-radius: 7px;
@@ -92,22 +92,32 @@ footer {
   -ms-border-radius: 7px;
   -o-border-radius: 7px;
 }
-.cen{
- 
+.cen {
   display: flex;
   justify-content: center;
   align-items: center;
-  color:#fffffe;
-
+  color: #fffffe;
 }
-.imgpro{
+.imgpro {
   background-image: url("/img/img/Captura-desde-2023-06-21-14-50-04.webp");
-  width:200px;
-  height:250px;
+  width: 200px;
+  height: 250px;
 }
 
-.imgpro2{
+.imgpro2 {
   background-image: url("/img/img/jake-weirick-Q_RBVFFXR_g-unsplash-1.webp");
-  width:200px;
-  height:250px;
+  width: 200px;
+  height: 250px;
+}
+
+.imag2 {
+  background-image: url(/img/img/luca-bravo-XJXWbfSo2f0-unsplash.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
 }
