@@ -121,3 +121,40 @@ footer {
   -ms-border-radius: 7px;
   -o-border-radius: 7px;
 }
+.portada2 {
+  background-image: url(/img/img/_205c9cbc-2b59-4576-b80a-6fcbb4cb909b.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+}
+.col-md-4 a {
+  text-decoration: none;
+  background-color: #77dd77;
+  color: #fffffe;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.col-md-4 a:hover {
+  background-color: #fffffe;
+  color: black;
+}
+.custom-margin {
+  margin: 10px;
+}
+.portada3 {
+  background-image: url(/img/img/_7e9a44ad-c023-4034-be46-e3aaf5db6a18.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+}
