@@ -1,18 +1,18 @@
-"use strict";
+"use strict"
 
-const form = document.querySelector(".form");
+const form = document.querySelector('.form');
 form.addEventListener('submit', function (e) {
   e.preventDefault();
   sendMessage(form);
-});
+})
 
 async function sendMessage(form) {
-  const formdata = new formdata(form);
-  if (formdata) {
+  const formData = new formData(form);
+  if (formData) {
     const url = "php/sendMessage.php";
     const response = await fetch(url, {
       method: "POST",
-      body: formdata,
+      body: formData,
     });
     if (response.ok) {
       form.reset();
