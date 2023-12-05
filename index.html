@@ -30,6 +30,7 @@
     <script src="/js/jquery-3.7.0.min.js.js"></script>
     <script src="/js/bootstrap.min.js"></script>
     <script src="/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/script.js"></script>
     <script src="/js/sololetras.js"></script>
     <script src="/js/solonumero.js"></script>
     <title>ftv.dev</title>
@@ -233,13 +234,13 @@
       <form>
         <h2 class="display-5">Contáctame</h2>
         <br />
+        <main>
         <div class="form-group">
           <label>Nombre:</label>
           <input
-            id="nombre-con"
-            type="text"
+          required type="text"
+            name="Nombre"
             class="form-control"
-            id="exampleInputName2"
             placeholder="Jane Doe"
             onkeypress="return lettersOnly(event)"
           />
@@ -248,10 +249,9 @@
         <div class="form-group">
           <label>Email:</label>
           <input
-            id="imail-con"
-            type="email"
+            name="email"
+            required type="email"
             class="form-control"
-            id="email"
             placeholder="jane.doe@example.com"
           />
         </div>
@@ -260,12 +260,13 @@
         <div class="form-group">
           <label>Comentario:</label>
           <textarea
-            id="conmentario-con"
+            required name="message"
             class="form-control"
             rows="3"
             placeholder="deje su comentarios."
           ></textarea>
         </div>
+      </main>
         <br />
         <div class="form-group">
           <button type="submit" class="btn btn-outline-success">
