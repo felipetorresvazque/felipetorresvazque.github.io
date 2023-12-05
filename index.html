@@ -30,7 +30,7 @@
     <script src="/js/jquery-3.7.0.min.js.js"></script>
     <script src="/js/bootstrap.min.js"></script>
     <script src="/js/bootstrap.bundle.min.js"></script>
-    <script src="/js/script.js"></script>
+    <script async src="/js/script.js"></script>
     <script src="/js/sololetras.js"></script>
     <script src="/js/solonumero.js"></script>
     <title>ftv.dev</title>
@@ -230,50 +230,15 @@
         </div>
       </div>
     </div>
-    <div id="conctacto" class="conctacto">
-      <form>
-        <h2 class="display-5">Contáctame</h2>
-        <br />
-        <main>
-        <div class="form-group">
-          <label>Nombre:</label>
-          <input
-          required type="text"
-            name="Nombre"
-            class="form-control"
-            placeholder="Jane Doe"
-            onkeypress="return lettersOnly(event)"
-          />
-        </div>
-        <br />
-        <div class="form-group">
-          <label>Email:</label>
-          <input
-            name="email"
-            required type="email"
-            class="form-control"
-            placeholder="jane.doe@example.com"
-          />
-        </div>
-
-        <br />
-        <div class="form-group">
-          <label>Comentario:</label>
-          <textarea
-            required name="message"
-            class="form-control"
-            rows="3"
-            placeholder="deje su comentarios."
-          ></textarea>
-        </div>
+    <div class="wrapper">
+      <main class="page">
+        <form action="#" class="form">
+          <input required type="text" name="name" placeholder="nombre" class="form__input">
+          <input required type="email" name="email" placeholder="email" class="form__input">
+          <textarea required name="message" placeholder="message" cols="30" rows="10" class="form__input"></textarea>
+          <button class="form__button" type="submit">send</button>
+        </form>
       </main>
-        <br />
-        <div class="form-group">
-          <button type="submit" class="btn btn-outline-success">
-            <i class="fa-solid fa-jet-fighter-up"></i>Enviar
-          </button>
-        </div>
-      </form>
     </div>
     <div>
       <footer class="bg-black py-4">
