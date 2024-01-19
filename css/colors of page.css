@@ -122,7 +122,7 @@ footer {
   -o-border-radius: 7px;
 }
 .portada2 {
-  background-image: url(/img/img/_205c9cbc-2b59-4576-b80a-6fcbb4cb909b.jpeg);
+  background-image: url(/img/img/portada2.webp);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -148,7 +148,7 @@ footer {
   margin: 10px;
 }
 .portada3 {
-  background-image: url(/img/img/_7e9a44ad-c023-4034-be46-e3aaf5db6a18.jpeg);
+  background-image: url(/img/img/portada3.webp);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
