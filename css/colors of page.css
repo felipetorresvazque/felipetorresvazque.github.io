@@ -38,6 +38,10 @@ footer {
   flex-grow: 999;
   min-width: 70%;
   padding: 40px;
+  grid-auto-flow: row column dense  ;
+}
+.herramienta {
+  flex-wrap: nowrap wrap wrap-reverse;
 }
 .hola span {
   color: #fdfd96;
@@ -158,6 +162,6 @@ footer {
   -ms-border-radius: 7px;
   -o-border-radius: 7px;
 }
-i{
+i {
   padding: 5px;
 }
