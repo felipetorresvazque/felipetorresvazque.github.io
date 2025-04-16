@@ -47,7 +47,11 @@
         </button>
         <div class="collapse navbar-collapse" id="mynavbar">
           <ul class="navbar-nav me-auto">
+            <li class="nav-item"></li>
             <li class="nav-item">
+              <a class="nav-link" href="#proyecto"
+                ><i class="fa-solid fa-diagram-project"></i>proyecto</a
+              >
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#herramienta"
@@ -92,8 +96,7 @@
       </div>
     </nav>
     <div class="alert alert-danger" role="alert">
-      todavía proyect sakura esta en desarrollo no todas funciones esta
-      disponible no es version final.
+      proyect sakura esta en desarrollo no todas funciones esta disponible.
     </div>
     <div class="container">
       <div class="p-4 p-md-5 mb-4 cen rounded bg-dark imag">
@@ -112,7 +115,7 @@
               en área en sector web.
             </p>
             <a
-              href="/recurso/curriculum de felipe andrés torres vazque .pdf"
+              href="/recurso/Cv de Felipe torres vazque.pdf"
               class="btn btn-primary"
               ><i
                 class="fa-solid fa-download"
@@ -124,38 +127,46 @@
         </div>
       </div>
     </div>
-    <div class="practica">
+    <div class="practica" id="proyecto">
       <h2 class="display-5">Los últimos de proyecto & blog</h2>
       <br />
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4 custom-margin portada2">
-            <h2>love cat</h2>
-            <div class="mb-1 text-light">22/06/2023</div>
-            <p class="text-white" style="background-color: rgba(0, 0, 0, 0.4)">
-              Es nueva página web de exhibición para el animal más amado del
-              internet, que incluye foto, videos y top de raza de los felinos
-              según la inteligencia artificial.
-            </p>
-            <a class="btn btn-default" href="/html/404.html" role="button"
-              >View details »<i class="fa-solid fa-newspaper"></i
-            ></a>
-          </div>
-          <br />
-          <div class="col-md-4 custom-margin portada3">
-            <h2>La evolución de proyect sakura</h2>
-            <div class="mb-1 text-light">22/06/2023</div>
-            <p class="text-white" style="background-color: rgba(0, 0, 0, 0.4)">
-              Conoce los ultimo cambios y novedades hechos sobre la página web
-              que todavía está en desarrollo. incluyendo proyect duck.
-            </p>
+      <!--------prueba1----------->
 
-            <a class="btn btn-default" href="/html/404.html" role="button"
-              >View details »<<i class="fa-solid fa-newspaper"></i>
-            </a>
-          </div>
+      <div class="row row-cols-1 row-cols-2 g-4">
+        <div class="col portada2">
+          <article class="card-body h-100">
+            <div class="card-body">
+              <h2 class="card-title t">love cat</h2>
+              <div class="text-white mb-2">22/06/2023</div>
+              <p class="card-text bg-dark bg-opacity-50 text-white p-3">
+                Es nueva página web de exhibición para el animal más amado del
+                internet, que incluye foto, videos y top de raza de los felinos
+                según la inteligencia artificial.
+              </p>
+              <a href="/html/404.html" class="btn btn-primary">
+                Ver detalles <i class="fa-solid fa-newspaper"></i>
+              </a>
+            </div>
+          </article>
+        </div>
+        <!---nota2-->
+        <div class="col portada3">
+          <article class="card-body h-100">
+            <div class="card-body">
+              <h2 class="card-title t">La evolución de proyect sakura</h2>
+              <div class="text-white mb-2">22/06/2023</div>
+              <p class="card-text bg-dark bg-opacity-50 text-white p-3">
+                Conoce los ultimo cambios y novedades hechos sobre la página web
+                que todavía está en desarrollo. incluyendo proyect duck.
+              </p>
+              <a href="/html/404.html" class="btn btn-primary">
+                Ver detalles <i class="fa-solid fa-newspaper"></i>
+              </a>
+            </div>
+          </article>
         </div>
       </div>
+      <!-----fin prueba1------->
     </div>
     <div id="herramienta" class="herramienta">
       <h2 class="display-5">Herramienta</h2>
@@ -223,7 +234,7 @@
         </div>
       </div>
     </div>
-    <div class="conctacto">
+    <div class="conctacto" id="conctacto">
       <h2 class="display-5">Contacto</h2>
       <div class="from-group">
         <label class="text-white">nombre</label>
@@ -243,17 +254,6 @@
           placeholder="ingrese su correo"
           id="imail"
         />
-      </div>
-      <div class="form-group">
-        <label class="text-white">comentario</label>
-        <textarea
-          name=""
-          id="com"
-          cols="30"
-          rows="10"
-          placeholder="ingrese su mensaje"
-          class="form-control"
-        ></textarea>
       </div>
       <button class="btn btn-success">
         <a href=""><i class="fa-regular fa-paper-plane"></i>enviar</a>

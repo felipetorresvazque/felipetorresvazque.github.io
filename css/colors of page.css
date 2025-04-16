@@ -9,8 +9,11 @@ body {
   color: #a7a9be;
 }
 
-h2 {
+h2{
   color: #fdfd96;
+}
+.t{
+  color:#fdfd96;
 }
 .hola h5 {
   color: #fffffe;
@@ -161,6 +164,7 @@ footer {
   -moz-border-radius: 7px;
   -ms-border-radius: 7px;
   -o-border-radius: 7px;
+  padding: 1px;
 }
 i {
   padding: 5px;
