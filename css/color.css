@@ -1,0 +1,51 @@
+body {
+   background-image: linear-gradient(to right bottom, #643ebf, #5a50cb, #4e60d6, #436edf, #387ce7, #327de6, #2b7fe6, #2480e5, #1d77dd, #176dd5, #1064cc, #0a5bc4);
+}
+.navbar a {
+  color: #fff;
+}
+.navbar a:hover {
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  background: rgba(255, 255, 255, 0.18);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  color: #fff;
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+}
+.titulo,
+h1,
+h2,
+h3,
+label,
+p {
+  color: #fff;
+}
+.btn {
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  background: rgba(255, 255, 255, 0.18);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  color: #fff;
+}
+
+.btn:hover {
+  box-shadow: 0 16px 40px 0 rgba(31, 38, 135, 0.37);
+  color: #436edf;
+}
+.form-control {
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  background: rgba(255, 255, 255, 0.18);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  color: #fff;
+}
+::placeholder{
+  color:#fff;
+}
+.footer-content {
+  color: #fff;
+}

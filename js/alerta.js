@@ -1,0 +1,1 @@
+confirm("alerta esta desarrollo no toda las funcionalidades estan implementadas");
