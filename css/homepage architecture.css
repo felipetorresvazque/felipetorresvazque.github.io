@@ -17,12 +17,10 @@ section {
   border-radius: 7px;
   -webkit-border-radius: 7px;
   -moz-border-radius: 7px;
-  -ms-border-radius: 7px;
-  -o-border-radius: 7px;
 }
 .fotorincipal {
   height: 250px;
-  width: 250p;
+  width: 250px;
   border-radius: 7px;
   -webkit-border-radius: 7px;
 }
@@ -61,8 +59,6 @@ section {
   border-radius: 7px;
   -webkit-border-radius: 7px;
   -moz-border-radius: 7px;
-  -ms-border-radius: 7px;
-  -o-border-radius: 7px;
 }
 
 /* Add an active class to highlight the current page */
@@ -108,16 +104,11 @@ section {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   -webkit-border-radius: 7px;
   -moz-border-radius: 7px;
-  -ms-border-radius: 7px;
-  -o-border-radius: 7px;
 }
 
 .btn:hover {
   transform: translate(-10px) scale(1.03);
-  -webkit-transform: translate(-10px) scale(1.03);
-  -moz-transform: translate(-10px) scale(1.03);
   -ms-transform: translate(-10px) scale(1.03);
-  -o-transform: translate(-10px) scale(1.03);
 }
 section,
 .proyectos {
@@ -143,10 +134,7 @@ section,
 }
 .card:hover {
   transform: translate(-10px) scale(1.03);
-  -webkit-transform: translate(-10px) scale(1.03);
-  -moz-transform: translate(-10px) scale(1.03);
   -ms-transform: translate(-10px) scale(1.03);
-  -o-transform: translate(-10px) scale(1.03);
   box-shadow: 0 16px 40px 0 rgba(31, 38, 135, 0.37);
 }
 .card-img {
@@ -186,21 +174,21 @@ section,
   margin: 0;
   color: #fff;
 }
-footer ul{
+footer ul {
   display: flex;
   padding: 0;
   gap: 24px;
   justify-content: center;
   list-style-type: none;
 }
-footer a{
+footer a {
   color: #fff;
   text-decoration: none;
   font-weight: bold;
   font-size: 20px;
 }
-footer a:hover{
-    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+footer a:hover {
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   background: rgba(255, 255, 255, 0.18);
   backdrop-filter: blur(8px);
   border: 1px solid rgba(255, 255, 255, 0.18);
