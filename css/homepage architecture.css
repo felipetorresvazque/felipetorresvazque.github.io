@@ -118,7 +118,8 @@ section,
 }
 .card {
   position: relative;
-  width: 320px;
+  width: 330px;
+  height: 332px;
   border-radius: 20px;
   overflow: hidden;
   display: inline-block;
@@ -136,6 +137,9 @@ section,
   transform: translate(-10px) scale(1.03);
   -ms-transform: translate(-10px) scale(1.03);
   box-shadow: 0 16px 40px 0 rgba(31, 38, 135, 0.37);
+  -webkit-transform: translate(-10px) scale(1.03);
+  -moz-transform: translate(-10px) scale(1.03);
+  -o-transform: translate(-10px) scale(1.03);
 }
 .card-img {
   width: 100%;
