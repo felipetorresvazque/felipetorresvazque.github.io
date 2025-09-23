@@ -1,12 +1,48 @@
 body {
+  background-image: linear-gradient(
+    to right bottom,
+    #643ebf,
+    #5a50cb,
+    #4e60d6,
+    #436edf,
+    #387ce7,
+    #327de6,
+    #2b7fe6,
+    #2480e5,
+    #1d77dd,
+    #176dd5,
+    #1064cc,
+    #0a5bc4
+  );
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.navbar a {
+  color: #fff;
+}
+.navbar a:hover {
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  background: rgba(255, 255, 255, 0.18);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  color: #fff;
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
 }
 section {
   flex-basis: 0;
   flex-grow: 999;
   min-width: 70%;
   padding: 40px;
+}
+.titulo,
+h1,
+h2,
+h3,
+label,
+p {
+  color: #fff;
 }
 .imgportada {
   background-image: url("/img/img/josefina-di-battista-UwoPc2op3UQ-unsplash.webp");
@@ -19,10 +55,9 @@ section {
   -moz-border-radius: 7px;
 }
 .fotorincipal {
-  height: 250px;
-  width: 250px;
+  height: 240px;
+  width: 240px;
   border-radius: 7px;
-  -webkit-border-radius: 7px;
 }
 .centrartexto {
   text-align: center;
@@ -32,48 +67,9 @@ section {
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
 }
-/* Add a black background color to the top navigation */
-.topnav {
-  background-color: transparent;
-  overflow: hidden;
-}
-
-/* Style the links inside the navigation bar */
-.topnav a {
-  float: left;
-  display: block;
-  color: #ddd;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-/* Change the color of links on hover */
-.topnav a:hover {
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  background: rgba(255, 255, 255, 0.18);
-  backdrop-filter: blur(8px);
-  border: 1px solid rgba(255, 255, 255, 0.18);
-  color: #fff;
-  border-radius: 7px;
-  -webkit-border-radius: 7px;
-  -moz-border-radius: 7px;
-}
-
-/* Add an active class to highlight the current page */
-.topnav a.active {
-  background-color: rgba(253, 29, 29, 1);
-  color: white;
-}
-
-/* Hide the link that should open and close the topnav on small screens */
-.topnav .icon {
-  display: none;
-}
-
 .imgprincipal {
-  width: 20px;
+  width: 15px;
+  padding: 2px;
 }
 .btn {
   margin-top: 15px;
@@ -85,28 +81,30 @@ section {
   cursor: pointer;
   transition: background 0.2s;
   -moz-text-decoration-line: none;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  background: rgba(255, 255, 255, 0.18);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  color: #fff;
 }
 .form-control {
-  background-origin: padding-box;
-  background-clip: padding-box;
-  border: 1px solid;
-  border-radius: 7px;
-  padding: 10px;
   width: 100%;
+  padding: 10px;
   box-sizing: border-box;
-  transition: border-color 0.3s ease;
-  -webkit-transition: border-color 0.3s ease;
-  -moz-transition: border-color 0.3s ease;
-  -ms-transition: border-color 0.3s ease;
-  -o-transition: border-color 0.3s ease;
   font-size: 16px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  -webkit-border-radius: 7px;
-  -moz-border-radius: 7px;
+  background: rgba(255, 255, 255, 0);
+  border: solid 1px;
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(0.6px);
+  -webkit-backdrop-filter: blur(0.6px);
+  border: 1px solid rgba(255, 255, 255, 0.13);
+  color: #fff;
 }
 
 .btn:hover {
+  box-shadow: 0 16px 40px 0 rgba(31, 38, 135, 0.37);
+  color: #436edf;
   transform: translate(-10px) scale(1.03);
   -ms-transform: translate(-10px) scale(1.03);
 }
@@ -121,17 +119,16 @@ section,
   width: 330px;
   height: 332px;
   border-radius: 20px;
+  isolation: isolate;
   overflow: hidden;
   display: inline-block;
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  background: rgba(255, 255, 255, 0.18);
-  backdrop-filter: blur(8px);
-  border: 1px solid rgba(255, 255, 255, 0.18);
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+  border: 1px solid rgba(255, 255, 255, 0.21);
   transition: transform 0.3s, box-shadow 0.3s;
-  -webkit-transition: transform 0.3s, box-shadow 0.3s;
-  -moz-transition: transform 0.3s, box-shadow 0.3s;
-  -ms-transition: transform 0.3s, box-shadow 0.3s;
-  -o-transition: transform 0.3s, box-shadow 0.3s;
 }
 .card:hover {
   transform: translate(-10px) scale(1.03);
@@ -196,4 +193,10 @@ footer a:hover {
   background: rgba(255, 255, 255, 0.18);
   backdrop-filter: blur(8px);
   border: 1px solid rgba(255, 255, 255, 0.18);
+}
+::placeholder {
+  color: #fff;
+}
+.footer-content {
+  color: #fff;
 }
