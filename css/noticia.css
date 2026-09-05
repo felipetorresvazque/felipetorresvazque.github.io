@@ -79,3 +79,83 @@ footer a:hover {
   backdrop-filter: blur(8px);
   border: 1px solid rgba(255, 255, 255, 0.18);
 }
+
+/* Estilos para la sección de imagen con título */
+.image_titulo {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.cajaportada {
+  position: relative;
+  overflow: hidden;
+  border-radius: 7px;
+}
+
+.cajaportada .notiportada {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  display: block;
+}
+
+.titulo-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0));
+  color: white;
+  padding: 40px 20px 20px;
+}
+
+.titulo-overlay h1 {
+  margin: 0;
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 1.3;
+}
+
+.titulo-overlay h2 {
+  margin: 10px 0 0 0;
+  font-size: 16px;
+  font-weight: 300;
+  opacity: 0.9;
+}
+
+/* Estilos para la sección de contenido */
+.contenido {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.contenido article p {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #ccc;
+  margin-bottom: 20px;
+}
+.contenido article h4{
+  color: #ccc;
+}
+/* Responsive */
+@media screen and (max-width: 768px) {
+  .notiportada {
+    width: 100%;
+    height: 250px;
+  }
+
+  .titulo-overlay h1 {
+    font-size: 22px;
+  }
+
+  .titulo-overlay h2 {
+    font-size: 14px;
+  }
+
+  .contenido article p {
+    font-size: 15px;
+  }
+}

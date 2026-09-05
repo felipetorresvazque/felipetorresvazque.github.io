@@ -1,6 +1,6 @@
 <!----proyect clara -- felipe torres ("felipesonic") 3 de julio 2025 chile--->
 <!doctype html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -15,20 +15,13 @@
   </head>
   <body>
     <div class="topnav" id="myTopnav">
-      <a href="/index.html"
-        ><img
-          src="/img/img/estrella-fugaz.png"
-          class="imgprincipal active"
-          alt=""
-      /></a>
+      <a href="index.html"><i class="fa-solid fa-house"></i> Inicio</a>
       <a href="#news"><i class="fa-solid fa-diagram-project"></i> Proyecto</a>
       <a href="#herramienta"
-        ><i class="fa-solid fa-screwdriver-wrench"></i> herramientas</a
+        ><i class="fa-solid fa-screwdriver-wrench"></i> Herramientas</a
       >
-      <a href="#conctacto"
-        ><i class="fa-solid fa-address-book"></i> Contacto</a
-      >
-      <a href="#about"><i class="fa-solid fa-address-card"></i> Acerca De</a>
+      <a href="#conctacto"><i class="fa-solid fa-address-book"></i> Contacto</a>
+      <a href="#about"><i class="fa-solid fa-address-card"></i> Acerca de</a>
       <a href="javascript:void(0);" class="icon" onclick="myFunction()">
         <i class="fa fa-bars"></i>
       </a>
@@ -43,60 +36,94 @@
             class="fotorincipal"
           />
           <p>
-          Soy técnico en análisis y programación, de Laja, Biobío, Chile. Soy desarrollador junior enfocado en el área web.
+            Soy técnico en análisis y programación de Laja, Biobío, Chile. Soy
+            desarrollador junior enfocado en el área web.
           </p>
-          <a
-            href="/recurso/curriculum/CV_FelipeTorresVazque.pdf"
-            class="btn"
-            ><i class="fa-solid fa-download"></i> Descargar Vc  </a
-          >
+          <a href="/recurso/curriculum/CV_FelipeTorresVazque.pdf" class="btn"
+            ><i class="fa-solid fa-download"></i> Descargar CV
+          </a>
         </div>
       </div>
     </section>
     <div class="bento-grid">
-      <section class="proyectos bento-item bento-tall" id="news">
-        <h2>Proyectos</h2>
-        <div class="container">
-          <div class="card">
-            <img
-              src="/img/img/portada3.webp"
-              alt="Portada 1"
-              class="card-img"
-            />
-            <div class="card-content">
-              <h3>proyecto de portafolio</h3>
-              <p>Mi experiencia y consejos sobre el tema</p>
-              <a href="html/noticiafont.html" class="card-btn"
-                ><i class="fa-solid fa-newspaper"></i>Ver más</a
-              >
-            </div>
-          </div>
-          <div class="card">
-            <img
-              src="/img/img/portada2.webp"
-              alt="Portada 2"
-              class="card-img"
-            />
-            <div class="card-content">
-              <h3>lovecats</h3>
-              <p>Pagina sobre los gatos</p>
-              <a href="#" class="card-btn"
-                ><i class="fa-solid fa-newspaper"></i>Ver más</a
-              >
-            </div>
-          </div>
+      <!-------------------------------portafolio----------------------->
+        <section class="proyectos bento-item bento-tall" id="news">
+    <h2>Proyectos</h2>
+    <div class="container">
+      <div class="card">
+        <img
+          src="/img/img/portada3.webp"
+          alt="Portada 1"
+          class="card-img"
+        />
+        <div class="card-content">
+          <h3>Proyecto de portafolio</h3>
+          <p>Mi experiencia y consejos sobre el tema</p>
+          <a href="html/notasobreportafolio.html" class="card-btn"
+            ><i class="fa-solid fa-newspaper"></i>Ver más</a
+          >
         </div>
-      </section>
+      </div>
+      <figure class="card">
+        <img
+          src="/img/img/portada2.webp"
+          alt="Portada del proyecto LoveCats: landing temática sobre gatos"
+          class="card-img"
+        />
+        <figcaption class="card-content">
+          <h3>LoveCats</h3>
+          <p>Landing page temática sobre gatos, con galería de imágenes y diseño adaptable hecho con W3CSS.</p>
+          <div class="card-actions">
+            <a href="#" class="card-btn" aria-label="Ver demo de LoveCats">
+              <i class="fa-solid fa-eye" aria-hidden="true"></i>
+              <span>Ver demo</span>
+            </a>
+            <a href="#" class="card-btn card-btn-outline" aria-label="Ver código en GitHub">
+              <i class="fa-brands fa-github" aria-hidden="true"></i>
+              <span>Ver código</span>
+            </a>
+          </div>
+        </figcaption>
+      </figure>
+    </div>
+  </section>
+      <!---------------------------------------------------->
       <section id="herramienta" class="bento-item bento-tall">
         <h2>Herramientas</h2>
         <div class="card2">
           <img src="/img/imagen para card/html5.webp" />
-          <h3>Html5</h3>
+          <h3>HTML5</h3>
           <div class="focus-content">
             <p>
               Lenguaje básico de la World Wide Web.<br />
               <a href="https://es.wikipedia.org/wiki/HTML5"
-                >Información en wikipedia</a
+                >Información en Wikipedia</a
+              >
+            </p>
+          </div>
+        </div>
+        <div class="card2">
+          <img src="/img/imagen para card/creative-css3-tutorials.webp" />
+          <h3>CSS</h3>
+          <div class="focus-content">
+            <p>
+              Lenguaje declarativo para dar estilos a páginas web.
+              <a href="https://es.wikipedia.org/wiki/CSS"
+                >Información en Wikipedia</a
+              >
+            </p>
+          </div>
+        </div>
+        <div class="card2">
+          <img src="/img/imagen para card/javascript-736401_960_720.webp" />
+          <h3>JavaScript</h3>
+          <div class="focus-content">
+            <p>
+              JavaScript es un lenguaje de programación interpretado y orientado
+              a objetos. <br />
+
+              <a href="https://es.wikipedia.org/wiki/JavaScript"
+                >Información en Wikipedia</a
               >
             </p>
           </div>
@@ -108,20 +135,20 @@
             <p>
               Software de control de versiones diseñado por Linus Torvalds.<br />
               <a href="https://es.wikipedia.org/wiki/Git"
-                >Información en wikipedia</a
+                >Información en Wikipedia</a
               >
             </p>
           </div>
         </div>
         <div class="card2">
           <img src="/img/imagen para card/bootstrap.webp" />
-          <h3>bootstrap</h3>
+          <h3>Bootstrap</h3>
           <div class="focus-content">
             <p>
-              framework utilizado para desarrollar aplicaciones web y sitios
-              mobile.
+              Framework utilizado para desarrollar aplicaciones web y sitios
+              móviles.
               <a href="https://es.wikipedia.org/wiki/Bootstrap_(framework)"
-                >Información en wikipedia</a
+                >Información en Wikipedia</a
               >
             </p>
           </div>
@@ -131,10 +158,10 @@
           <h3>.Net Framework</h3>
           <div class="focus-content">
             <p>
-              framework utilizado para desarrollar aplicaciones web y sitios
-              mobile.
+              Framework utilizado para desarrollar aplicaciones web y sitios
+              móviles.
               <a href="https://es.wikipedia.org/wiki/Microsoft_.NET"
-                >Información en wikipedia</a
+                >Información en Wikipedia</a
               >
             </p>
           </div>
@@ -142,14 +169,14 @@
       </section>
       <section class="bento-item bento-tall">
         <div class="conctacto" id="conctacto">
-          <h2>Conctacto</h2>
+          <h2>Contacto</h2>
           <p>Envía tus datos y te responderé lo antes posible</p>
           <div class="from-group">
             <label class="text-white">Nombre</label>
             <input
               type="text"
               class="form-control"
-              placeholder="ingrese su nombre"
+              placeholder="Ingrese su nombre"
               id="usr"
             />
           </div>
@@ -159,12 +186,12 @@
               type="email"
               name=""
               class="form-control"
-              placeholder="ingrese su correo"
+              placeholder="Ingrese su correo"
               id="imail"
             />
           </div>
           <br />
-          <a class="btn"><i class="fa-regular fa-paper-plane"></i> enviar</a>
+          <a class="btn"><i class="fa-regular fa-paper-plane"></i> Enviar</a>
         </div>
       </section>
     </div>
