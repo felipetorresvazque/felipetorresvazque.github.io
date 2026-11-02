@@ -1,9 +1,16 @@
-/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
-function myFunction() {
-  const x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
+document.querySelectorAll(".topnav .icon").forEach((button) => {
+  const navigation = button.closest(".topnav");
+
+  if (!navigation) {
+    return;
   }
-}
+
+  button.addEventListener("click", () => {
+    const isExpanded = navigation.classList.toggle("responsive");
+    button.setAttribute("aria-expanded", String(isExpanded));
+    button.setAttribute(
+      "aria-label",
+      isExpanded ? "Cerrar menú de navegación" : "Abrir menú de navegación",
+    );
+  });
+});

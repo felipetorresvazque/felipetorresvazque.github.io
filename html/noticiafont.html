@@ -13,13 +13,19 @@
     <title>Noticia - fdev</title>
 </head>
 <body>
-<div class="topnav" id="myTopnav">
+<nav class="topnav" id="myTopnav" aria-label="Navegación principal">
     <a href="/index.html"><i class="fa-solid fa-house"></i> Regreso</a>
     <a href="#about"><i class="fa-solid fa-address-card"></i> Acerca de</a>
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        <i class="fa fa-bars"></i>
-    </a>
-</div>
+    <button
+        class="icon"
+        type="button"
+        aria-label="Abrir menú de navegación"
+        aria-expanded="false"
+        aria-controls="myTopnav"
+    >
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </button>
+</nav>
 <section class="image_titulo">
     <div class="cajaportada">
         <img
@@ -50,14 +56,31 @@
             <h3>Felipe Torres Vazque</h3>
             <p>"El café y el código son mis dos amores."</p>
             <ul class="socials">
-                <a href=""><i class="fa-brands fa-linkedin-in"></i></a
-                ><a href=""><i class="fa-brands fa-instagram"></i></a
-            ><a href=""><i class="fa-brands fa-github"></i></a>
+                <li>
+                    <a
+                            href="https://www.linkedin.com/in/felipetorresvazque"
+                            aria-label="Perfil de Felipe en LinkedIn"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                    >
+                        <i class="fa-brands fa-linkedin-in" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <li>
+                    <a
+                            href="https://github.com/felipetorresvazque"
+                            aria-label="Perfil de Felipe en GitHub"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                    >
+                        <i class="fa-brands fa-github" aria-hidden="true"></i>
+                    </a>
+                </li>
             </ul>
             <p>Felipe Torres Vazque --(felipesonic) ©2026</p>
         </div>
     </footer>
 </section>
-</body>
 <script src="/js/navbar.js"></script>
+</body>
 </html>
