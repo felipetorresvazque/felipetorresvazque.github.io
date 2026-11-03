@@ -49,14 +49,17 @@
   padding: 40px 20px;
 }
 
-.contenido article p {
+.contenido article p{
   margin-bottom: 20px;
   color: #ccc;
   font-size: 16px;
   line-height: 1.8;
 }
+.contenido li{
+  color: #ccc;
+}
 
-.contenido article h4 {
+.contenido article h3 {
   color: #ccc;
 }
 
